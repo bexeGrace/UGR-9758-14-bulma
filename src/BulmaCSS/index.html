@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Betsegaw Mesele</title>
+    <script
+      src="https://kit.fontawesome.com/88465c6539.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+    />
+    <style>
+      .custom-dark-green-bg {
+        background-color: rgb(17, 43, 17);
+        color: white;
+        padding: 20px;
+      }
+      .is-hoverable {
+        background-color: #218618;
+        margin: 1vw 2vw;
+      }
+      .is-hoverable:hover {
+        background-color: rgb(141, 128, 55);
+        color: rgb(231, 12, 12);
+      }
+      .has-background-lightorange {
+        background-color: antiquewhite;
+      }
+      .has-background-gray {
+        background-color: rgba(70, 68, 68, 0.7);
+      }
+      .side-scroll {
+        overflow-x: auto;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+
+      .content-to-scroll {
+        display: inline-flex;
+      }
+
+      .side-scroll::-webkit-scrollbar {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <header
+      class="hero is-fullheight"
+      style="
+        background-image: url('/images/background-best.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+      "
+    >
+      <div class="custom-dark-green-bg">
+        <nav>
+          <div class="is-flex is-justify-content-space-between">
+            <div class="navbar">
+              <a class="navbar-item" href="#">
+                <img
+                  src="images/logo.jpg"
+                  alt="Logo of the page"
+                  style="max-height: 4rem"
+                />
+              </a>
+              <a
+                role="button"
+                class="navbar-burger burger"
+                aria-label="menu"
+                aria-expanded="false"
+                data-target="navbarBasicExample"
+              >
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+              </a>
+            </div>
+            <div id="navbarBasicExample" class="navbar">
+              <div class="is-flex is-justify-content-space-around">
+                <a
+                  href="index.html"
+                  class="navbar-item has-text-white is-hoverable"
+                  >Home</a
+                >
+                <a
+                  href="portfolio.html"
+                  class="navbar-item has-text-white is-hoverable"
+                  >Portfolio</a
+                >
+                <a
+                  href="blog.html"
+                  class="navbar-item has-text-white is-hoverable"
+                  >Blog</a
+                >
+                <a
+                  href="contact.html"
+                  class="navbar-item has-text-white is-hoverable"
+                  >Contact</a
+                >
+                <a
+                  href="about.html"
+                  class="navbar-item has-text-white is-hoverable"
+                  >About</a
+                >
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      <div class="hero-body has-text-white">
+        <div class="container is-flex-direction-column">
+          <article class="is-flex is-flex-direction-column is-centered">
+            <figure class="container">
+              <p class="image is-rounded">
+                <img
+                  src="images/avatar-image.png"
+                  alt="Avatar of my image"
+                  style="width: 40vw; height: 40vw"
+                  class="image is-rounded"
+                />
+              </p>
+            </figure>
+            <div class="media-content">
+              <div class="content">
+                <h1 class="title has-text-white has-text-centered">
+                  Betsegaw Mesele
+                </h1>
+                <p class="has-text-centered">
+                  Software developer, especially working on web development.
+                </p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </header>
+    <main>
+      <h1 class="title is-1 has-text-centered">About Me</h1>
+      <section
+        class="section is-flex is-justify-content-space-around is-flex-wrap-wrap"
+      >
+        <div
+          class="is-flex-direction-column card has-background-lightorange"
+          style="width: 48%; height: fit-content; margin-top: 2vw"
+        >
+          <img
+            src="images/guitar-2.jpg"
+            alt="Hobbies represented with image."
+            class="image is-align-items-center"
+            style="width: 95%; height: 85%"
+          />
+          <p class="has-text-centered">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+            quia velit, sit ab officiis accusantium
+          </p>
+        </div>
+        <div
+          class="is-flex-direction-column card has-background-lightorange"
+          style="width: 48%; height: fit-content; margin-top: 2vw"
+        >
+          <img
+            src="images/guitar.jpg"
+            alt="Hobbies represented with image."
+            class="image is-align-items-center"
+            style="width: 95%; height: 30vw"
+          />
+          <p class="has-text-centered">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+            quia velit, sit ab officiis accusantium
+          </p>
+        </div>
+        <div
+          class="is-flex-direction-column card has-background-lightorange"
+          style="width: 48%; height: fit-content; margin-top: 2vw"
+        >
+          <img
+            src="images/guitar-2.jpg"
+            alt="Hobbies represented with image."
+            class="image is-align-items-center"
+            style="width: 95%; height: 30vw"
+          />
+          <p class="has-text-centered">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+            quia velit, sit ab officiis accusantium
+          </p>
+        </div>
+        <div
+          class="is-flex-direction-column card has-background-lightorange"
+          style="width: 48%; height: fit-content; margin-top: 2vw"
+        >
+          <img
+            src="images/guitar.jpg"
+            alt="Hobbies represented with image."
+            class="image is-align-items-center"
+            style="width: 95%; height: 30vw"
+          />
+          <p class="has-text-centered">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+            quia velit, sit ab officiis accusantium
+          </p>
+        </div>
+      </section>
+      <section class="section home--projects">
+        <h2 class="title is-2 has-text-centered">Projects by Me</h2>
+        <div class="is-flex side-scroll">
+          <div class="column is-one-third">
+            <a href=""
+              ><img src="images/project1.jpg" alt="Projects" class="image"
+            /></a>
+          </div>
+          <div class="column is-one-third">
+            <a href=""
+              ><img src="images/project2.png" alt="Projects" class="image"
+            /></a>
+          </div>
+          <div class="column is-one-third">
+            <a href=""
+              ><img src="images/project1.jpg" alt="Projects" class="image"
+            /></a>
+          </div>
+          <div class="column is-one-third">
+            <a href=""
+              ><img src="images/project2.png" alt="Projects" class="image"
+            /></a>
+          </div>
+          <div class="column is-one-third">
+            <a href=""
+              ><img src="images/project1.jpg" alt="Projects" class="image"
+            /></a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer
+      class="footer has-background-gray columns is-gapless is-multiline is-centered"
+    >
+      <section class="column is-one-third footer--social has-text-centered">
+        <h3 class="has-text-white">Social media links</h3>
+        <div class="is-flex-direction-column">
+          <div class="is-flex">
+            <div>
+              <i class="fab fa-facebook" style="color: #145ddb"></i>
+            </div>
+            <div>
+              <a href="">Betsegaw on Facebook</a>
+            </div>
+          </div>
+
+          <div class="is-flex">
+            <div>
+              <i class="fab fa-telegram" style="color: #188656"></i>
+            </div>
+            <div>
+              <a href="">@BM4uz</a>
+            </div>
+          </div>
+
+          <div class="is-flex">
+            <div>
+              <i class="fab fa-linkedin" style="color: #1d60d3"></i>
+            </div>
+            <div>
+              <a href="">Betsegaw on LinkedIn</a>
+            </div>
+          </div>
+
+          <div class="is-flex">
+            <div>
+              <i class="fab fa-github" style="color: #511f33"></i>
+            </div>
+            <div>
+              <a href="">Visit projects of Betsegaw in GitHub</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="column is-one-third footer--about">
+        <h3 class="has-text-white">About me:</h3>
+        <h2 class="has-text-white">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        </h2>
+        <a href="portfolio.html">Projects by Betsegaw</a>
+        <a href="contact">Contact him in...</a>
+      </section>
+      <section class="column is-one-third footer-message">
+        <h2 class="has-text-white">Leave your messages in the following</h2>
+        <p class="has-text-white">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+          veritatis quia iste magni rem,
+        </p>
+        <a class="has-text-white" href="mailto:betseeegaw@gmail.com"
+          >Email me...</a
+        >
+      </section>
+    </footer>
+  </body>
+</html>
